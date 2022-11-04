@@ -1,0 +1,6 @@
+.Remainder {
+  margin: 2em 0;
+  padding: 1rem 2rem;
+  background-color: rgba(128, 0, 128, .25);
+  border-left: .25em solid purple;
+}

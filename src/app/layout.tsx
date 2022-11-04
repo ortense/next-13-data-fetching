@@ -1,12 +1,18 @@
-export default function RootLayout({
-  children,
-}: {
+import "./app.css";
+
+type LayoutProps = {
   children: React.ReactNode;
-}) {
+};
+
+export default function RootLayout({ children }: LayoutProps) {
   return (
     <html>
       <head></head>
-      <body>{children}</body>
+      <body>
+        <section className="content">
+          {children}
+        </section>
+      </body>
     </html>
   );
 }

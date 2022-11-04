@@ -29,7 +29,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
-  ],
+, "src/app/suspense/fast.jsx", "src/app/suspense/page.jsx", "src/app/suspense/slow.jsx", "src/app/suspense/slowest.jsx", "src/app/async/page.jsx"  ],
   "exclude": [
     "node_modules"
   ]

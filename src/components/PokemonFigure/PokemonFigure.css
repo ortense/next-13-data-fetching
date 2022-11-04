@@ -1,0 +1,20 @@
+.PokemonFigure {
+  background-color: whitesmoke;
+  padding: 1rem;
+  border: .5em solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+  max-width: min-content;
+  height: 300px;
+}
+
+.PokemonFigure > img { width: 200px; }
+
+.PokemonFigure > figcaption {
+  color: black;
+  text-align: center;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  margin-top: 1rem;
+}
