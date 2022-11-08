@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   gap: 1em;
 }
 
@@ -77,6 +77,15 @@ footer { margin-top: 1rem; }
   gap: 1rem;
 }
 
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.flex-space-between { justify-content: space-between; }
+
 .text-mono {
   font-weight: 400;
   font-family: monospace;
@@ -84,3 +93,11 @@ footer { margin-top: 1rem; }
 .text-uppercase { text-transform: uppercase; }
 .text-small { font-size: .8em; }
 .text-center { text-align: center; }
+
+.warning {
+  color: hsl(48 100% 47.0%);
+  background-color: hsl(45 100% 5.5%);
+  border: 1px solid hsl(49 90.3% 18.4%);
+  border-radius: 6px;
+  padding: 1em;
+}
