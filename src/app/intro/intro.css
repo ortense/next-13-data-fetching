@@ -1,0 +1,13 @@
+.intro .flex-row:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.intro h2 { text-align: center; padding-top: 2em; }
+
+footer .huge {
+  font-size: 3em;
+  align-self: center;
+  padding: 1rem 0 .5rem;
+}
+
+footer { padding-bottom: 5rem; }
