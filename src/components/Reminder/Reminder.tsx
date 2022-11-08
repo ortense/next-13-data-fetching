@@ -7,8 +7,8 @@ export function Reminder() {
   return (
     <blockquote className="Remainder">
       <summary>
-        💡 <strong>Reminder:</strong> In this example I use <span className="text-mono">.jsx</span> instead of
-        {" "}
+        💡 <strong>Reminder:</strong> In this example I use{" "}
+        <span className="text-mono">.jsx</span> instead of{" "}
         <span className="text-mono">.tsx</span>. Check this weird error.
       </summary>
       <details>
