@@ -6,12 +6,6 @@ export default function Home() {
       <header>
         <h1 className="text-uppercase">💫 Data fetching Next.js 13 ✨</h1>
         <p className="text-center">
-          This is a collection of examples on how to{" "}
-          <a href="https://nextjs.org/blog/next-13#data-fetching">
-            fetching data in Next.js 13
-          </a>
-        </p>
-        <p className="text-center">
           Start understanding <Link href="/intro">what is this app</Link>
         </p>
       </header>

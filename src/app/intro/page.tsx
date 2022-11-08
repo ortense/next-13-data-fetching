@@ -16,6 +16,12 @@ export default function Page() {
     <article className="intro">
       <header>
         <h1>What is this app?!</h1>
+        <p className="text-center">
+          This is a collection of examples on how to{" "}
+          <a href="https://nextjs.org/blog/next-13#data-fetching">
+            fetching data in Next.js 13
+          </a>
+        </p>
       </header>
       <div className="flex-row flex-space-between">
         <div className="flex-column">
@@ -75,7 +81,7 @@ export default function Page() {
             <a href="https://pokeapi.co/" className="text-mono">pokeapi.co</a>,
             a{" "}
             <a href="https://github.com/phalt/pokeapi" className="text-mono">
-              REST API in python
+              RESTful API in python
             </a>{" "}
             that with more than 800 pokemon!
           </p>
