@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <>
+    <article>
       <header>
         <h1 className="text-uppercase">💫 Data fetching Next.js 13 ✨</h1>
         <p className="text-center">
@@ -10,6 +10,9 @@ export default function Home() {
           <a href="https://nextjs.org/blog/next-13#data-fetching">
             fetching data in Next.js 13
           </a>
+        </p>
+        <p className="text-center">
+          Start understanding <Link href="/intro">what is this app</Link>
         </p>
       </header>
       <table>
@@ -113,6 +116,6 @@ export default function Home() {
           </tr>
         </tbody>
       </table>
-    </>
+    </article>
   );
 }
