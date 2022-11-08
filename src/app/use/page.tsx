@@ -10,7 +10,7 @@ function CodeExample() {
 
 export default function Page() {
   return (
-    <>
+    <article>
       <header>
         <h1>
           Server side with <span className="text-mono">use</span> hook
@@ -38,6 +38,6 @@ export default function Page() {
           </a>
         </p>
       </footer>
-    </>
+    </article>
   );
 }

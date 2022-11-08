@@ -10,7 +10,7 @@ async function CodeExample() {
 
 export default function Page() {
   return (
-    <>
+    <article>
       <header>
         <h1>Async Server Component</h1>
         <p className="text-center">
@@ -33,6 +33,6 @@ export default function Page() {
         </p>
         <Reminder />
       </footer>
-    </>
+    </article>
   );
 }

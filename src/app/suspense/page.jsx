@@ -26,7 +26,7 @@ export function CodeExample() {
 
 export default function Page() {
   return (
-    <>
+    <article>
       <header>
         <h1>
           On demand loading with{" "}
@@ -53,6 +53,6 @@ export default function Page() {
         </p>
         <Reminder />
       </footer>
-    </>
+    </article>
   );
 }

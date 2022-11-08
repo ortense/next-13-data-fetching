@@ -30,7 +30,7 @@ function CodeExample() {
 
 export default function Page() {
   return (
-    <>
+    <article>
       <header>
         <h1>
           Client Side Render <span className="text-mono">useEffect</span>
@@ -68,6 +68,6 @@ export default function Page() {
           </a>
         </p>
       </footer>
-    </>
+    </article>
   );
 }

@@ -17,7 +17,7 @@ function CodeExample() {
 
 export default function WithCustomHook() {
   return (
-    <>
+    <article>
       <header>
         <h1>Client side render with custom hook</h1>
         <p>
@@ -48,6 +48,6 @@ export default function WithCustomHook() {
           </a>
         </p>
       </footer>
-    </>
+    </article>
   );
 }

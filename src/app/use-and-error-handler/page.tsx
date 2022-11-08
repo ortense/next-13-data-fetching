@@ -26,7 +26,7 @@ function CodeExample() {
 
 export default function Page() {
   return (
-    <>
+    <article>
       <header>
         <h1>
           Handle errors on server side components<br />with{" "}
@@ -41,6 +41,6 @@ export default function Page() {
       <div className="flex-row">
         <CodeExample />
       </div>
-    </>
+    </article>
   );
 }
