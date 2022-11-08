@@ -15,7 +15,7 @@ export default function Page() {
         <h1>
           Server side with <span className="text-mono">use</span> hook
         </h1>
-        <p>
+        <p className="text-center">
           A new{" "}
           <a href="https://github.com/acdlite/rfcs/blob/first-class-promises/text/0000-first-class-support-for-promises.md">
             feature proposal

@@ -41,6 +41,17 @@ export default function Page() {
       <div className="flex-row">
         <CodeExample />
       </div>
+      <footer>
+        <p className="text-center">
+          page source:{" "}
+          <a
+            className="text-mono"
+            href="https://github.com/ortense/next-13-data-fetching/blob/main/src/app/use-and-error-handler/page.tsx"
+          >
+            src/app/use-and-error-handler/page.tsx
+          </a>
+        </p>
+      </footer>
     </article>
   );
 }
