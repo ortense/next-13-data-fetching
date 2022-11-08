@@ -1,6 +1,6 @@
 import { use } from "react";
 import { PokemonFigure } from "../../components/PokemonFigure";
-import * as PokemonService from "../../services/pokemon";
+import { PokemonService } from "../../services";
 
 function CodeExample() {
   const pokemon = use(PokemonService.getByName("dedenne"));

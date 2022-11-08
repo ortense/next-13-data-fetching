@@ -1,6 +1,6 @@
 import { PokemonFigure } from "../../components/PokemonFigure";
 import { Reminder } from "../../components/Reminder";
-import * as PokemonService from "../../services/pokemon";
+import { PokemonService } from "../../services";
 
 async function CodeExample() {
   const pokemon = await PokemonService.getByName("marill");

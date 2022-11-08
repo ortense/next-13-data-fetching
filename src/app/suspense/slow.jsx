@@ -1,5 +1,5 @@
 import { PokemonFigure } from "../../components/PokemonFigure";
-import * as PokemonService from "../../services/pokemon";
+import { PokemonService } from "../../services";
 import { delay } from "../../utils";
 
 export default async function Pikachu() { // is faster than Pichu

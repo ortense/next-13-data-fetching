@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { Loader } from "../../components/Loader";
 import { PokemonFigure } from "../../components/PokemonFigure";
 import { Pokemon } from "../../interfaces/pokemon";
-import * as PokemonService from "../../services/pokemon";
+import { PokemonService } from "../../services";
 
 function CodeExample() {
   const [isLoading, setIsLoading] = useState(true);

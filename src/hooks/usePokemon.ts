@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Pokemon } from "../interfaces/pokemon";
-import * as PokemonService from "../services/pokemon";
+import { PokemonService } from "../services";
 
 export function usePokemon(name: string) {
   const [isLoading, setIsLoading] = useState(true);

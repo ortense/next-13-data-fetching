@@ -1,5 +1,5 @@
 import { PokemonFigure } from "../../components/PokemonFigure";
-import * as PokemonService from "../../services/pokemon";
+import { PokemonService } from "../../services";
 
 export default async function Raichu() { // is faster than Pikachu
   const pokemon = await PokemonService.getByName("raichu");

@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { PokemonFigure } from "../components/PokemonFigure";
 import { Pokemon } from "../interfaces/pokemon";
-import * as PokemonService from "../services/pokemon";
+import { PokemonService } from "../services";
 import "../app/app.css";
 
 type PageProps = {

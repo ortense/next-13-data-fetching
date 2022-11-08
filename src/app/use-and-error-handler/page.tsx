@@ -1,7 +1,7 @@
 import { use } from "react";
 import { PokemonFigure } from "../../components/PokemonFigure";
 import { Pokemon } from "../../interfaces/pokemon";
-import * as PokemonService from "../../services/pokemon";
+import { PokemonService } from "../../services";
 
 type Data = { pokemon?: Pokemon; error?: Error };
 
